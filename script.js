@@ -56,13 +56,6 @@
     h3.textContent = event.title || "";
     article.appendChild(h3);
 
-    var meta = document.createElement("p");
-    var metaParts = [];
-    if (event.location) metaParts.push(event.location);
-    metaParts.push("Hosted by " + (event.sourceLabel || "the ecosystem"));
-    meta.textContent = metaParts.join(" · ");
-    article.appendChild(meta);
-
     var link = document.createElement("a");
     link.className = "resource-link";
     link.href = event.url || "#";

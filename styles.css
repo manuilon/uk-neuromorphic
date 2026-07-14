@@ -518,8 +518,10 @@ html.reveal-armed .hero-visual.is-visible .venn-ni {
   margin-bottom: 32px;
 }
 
-.event-date {
+.resource-card .event-date {
   display: inline-block;
+  flex-grow: 0;
+  align-self: flex-start;
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -537,18 +539,6 @@ html.reveal-armed .hero-visual.is-visible .venn-ni {
   font-size: 14.5px;
   padding: 8px 0;
 }
-
-.events-more {
-  margin-top: 28px;
-}
-
-.events-more a {
-  font-size: 14px;
-  font-weight: 600;
-  text-decoration: none;
-  color: var(--color-accent);
-}
-.events-more a:hover { text-decoration: underline; }
 
 /* ============================================================
    Resources
