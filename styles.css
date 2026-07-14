@@ -3,14 +3,17 @@
 
    Palette sampled directly from the four provided logo files:
    - anchor:    NeuroSYNC wordmark / dark end of its brain-mark gradient
-   - companion: midpoint of NeuroWare's icon gradient (purple bridging to blue)
+   - companion: magenta end of NeuroWare's icon gradient — chosen over the
+                gradient's blue-purple midpoint, which read too close to
+                anchor; the magenta end keeps both initiatives logo-true
+                while staying visually distinct
    - accent:    NeuMat's cyan mark, deepened for AA text contrast
                 (bright variant kept for decorative-only use)
    ============================================================ */
 
 :root {
   --color-anchor: #423E8C;
-  --color-companion: #5F72B5;
+  --color-companion: #A85BA3;
   --color-accent: #007A6E;
   --color-accent-bright: #00D9C0;
   --color-ink: #191830;
@@ -383,7 +386,7 @@ html.reveal-armed .hero-visual.is-visible .venn-ni {
 }
 
 .card-logo-frame {
-  height: 40px;
+  height: 52px;
   display: flex;
   align-items: center;
   margin-bottom: 8px;
@@ -416,6 +419,21 @@ html.reveal-armed .hero-visual.is-visible .venn-ni {
   color: var(--color-mono);
   line-height: 1.6;
   flex-grow: 1;
+}
+
+.card-funder {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-mono);
+}
+
+.card-funder-logo {
+  height: 18px;
+  width: auto;
+  object-fit: contain;
 }
 
 .card-link {
@@ -567,6 +585,28 @@ html.reveal-armed .hero-visual.is-visible .venn-ni {
   border-left: 3px solid var(--color-anchor);
 }
 
+.resources .resource-card--ware {
+  border-left-color: var(--color-companion);
+}
+
+.resource-lead {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-anchor);
+  background: rgba(66, 62, 140, 0.12);
+  padding: 4px 10px;
+  border-radius: 999px;
+  margin: 0 0 2px;
+}
+
+.resource-lead--ware {
+  color: var(--color-companion);
+  background: rgba(168, 91, 163, 0.14);
+}
+
 .resource-card h3 {
   font-size: 17px;
   line-height: 1.3;
@@ -598,33 +638,25 @@ html.reveal-armed .hero-visual.is-visible .venn-ni {
   padding: clamp(48px, 7vw, 80px) 0 40px;
 }
 
-.footer-line {
-  font-family: var(--font-display);
-  font-size: clamp(20px, 2.6vw, 26px);
-  font-weight: 600;
-  max-width: 34ch;
-  margin-bottom: 24px;
-}
-
-.footer-links {
+.footer-top {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   gap: 24px;
   flex-wrap: wrap;
   margin-bottom: 36px;
 }
 
-.footer-links a {
-  font-size: 15px;
+.footer-line {
+  font-family: var(--font-display);
+  font-size: clamp(20px, 2.6vw, 26px);
   font-weight: 600;
-  text-decoration: none;
-  color: var(--color-ink);
-  border-bottom: 2px solid var(--color-hair);
-  padding-bottom: 2px;
-  transition: border-color 0.15s ease, color 0.15s ease;
+  max-width: 34ch;
+  flex: 1 1 320px;
 }
-.footer-links a:hover {
-  color: var(--color-accent);
-  border-color: var(--color-accent);
+
+.footer-top .btn {
+  flex-shrink: 0;
 }
 
 .footer-brands {
@@ -634,21 +666,32 @@ html.reveal-armed .hero-visual.is-visible .venn-ni {
   flex-wrap: wrap;
   padding-top: 28px;
   border-top: 1px solid var(--color-hair);
-  margin-bottom: 24px;
+  margin-bottom: 28px;
 }
 
 .footer-logo {
-  height: 26px;
+  height: 32px;
   width: auto;
   object-fit: contain;
 }
 
 .funder-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
   margin-bottom: 24px;
 }
 
+.funder-label {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-mono);
+}
+
 .funder-logo {
-  height: 44px;
+  height: 56px;
   width: auto;
   object-fit: contain;
 }
@@ -693,7 +736,10 @@ html.reveal-armed .hero-visual.is-visible .venn-ni {
     gap: 20px;
   }
   .footer-logo {
-    height: 22px;
+    height: 26px;
+  }
+  .funder-logo {
+    height: 40px;
   }
 }
 
