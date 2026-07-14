@@ -421,21 +421,6 @@ html.reveal-armed .hero-visual.is-visible .venn-ni {
   flex-grow: 1;
 }
 
-.card-funder {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--color-mono);
-}
-
-.card-funder-logo {
-  height: 18px;
-  width: auto;
-  object-fit: contain;
-}
-
 .card-link {
   font-size: 14px;
   font-weight: 600;
@@ -455,6 +440,23 @@ html.reveal-armed .hero-visual.is-visible .venn-ni {
   color: var(--color-mono);
   font-size: 15px;
   line-height: 1.6;
+}
+
+.ecosystem-funder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px auto 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-mono);
+}
+
+.ecosystem-funder-logo {
+  height: 22px;
+  width: auto;
+  object-fit: contain;
 }
 
 /* ============================================================
@@ -529,6 +531,13 @@ html.reveal-armed .hero-visual.is-visible .venn-ni {
   margin: 0 0 2px;
 }
 
+.events-status {
+  grid-column: 1 / -1;
+  color: var(--color-mono);
+  font-size: 14.5px;
+  padding: 8px 0;
+}
+
 .events-more {
   margin-top: 28px;
 }
@@ -589,8 +598,10 @@ html.reveal-armed .hero-visual.is-visible .venn-ni {
   border-left-color: var(--color-companion);
 }
 
-.resource-lead {
+.resource-card .resource-lead {
   display: inline-block;
+  flex-grow: 0;
+  align-self: flex-start;
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -602,7 +613,7 @@ html.reveal-armed .hero-visual.is-visible .venn-ni {
   margin: 0 0 2px;
 }
 
-.resource-lead--ware {
+.resource-card .resource-lead--ware {
   color: var(--color-companion);
   background: rgba(168, 91, 163, 0.14);
 }

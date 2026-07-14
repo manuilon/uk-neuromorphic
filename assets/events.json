@@ -1,0 +1,51 @@
+{
+  "generatedAt": "2026-07-14T12:20:38.967384+00:00",
+  "events": [
+    {
+      "title": "NeuMat Spotlight: Novel Computing Paradigms at Los Alamos",
+      "date": "28\u201330 July 2026",
+      "location": "",
+      "url": "https://www.neumat.co.uk/news/news-articles/neumat-spotlight-novel-computing-paradigms-at-los-alamos/",
+      "source": "neumat",
+      "sourceLabel": "NeuMat",
+      "sortDate": "2026-07-28T00:00:00+00:00"
+    },
+    {
+      "title": "Nature of Intelligence: Bridging Animal and Artificial Intelligence",
+      "date": "21-22 September 2026",
+      "location": "",
+      "url": "https://www.neumat.co.uk/news/news-articles/nature-of-intelligence/",
+      "source": "neumat",
+      "sourceLabel": "NeuMat",
+      "sortDate": "2026-09-21T00:00:00+00:00"
+    },
+    {
+      "title": "Masterclass Opportunity at Brainspiration 2026 \u2013 12 October, Nijmegen",
+      "date": "12 October 2026",
+      "location": "",
+      "url": "https://www.neumat.co.uk/news/news-articles/masterclass-opportunity-at-brainspiration-2026-12-october-nijmegen/",
+      "source": "neumat",
+      "sourceLabel": "NeuMat",
+      "sortDate": "2026-10-12T00:00:00+00:00"
+    },
+    {
+      "title": "Royal Society Hooke Discussion and Industry Events",
+      "date": "23-25 November 2026",
+      "location": "",
+      "url": "https://www.neumat.co.uk/news/news-articles/royal-society-hooke-discussion-and-industry-events/",
+      "source": "neumat",
+      "sourceLabel": "NeuMat",
+      "sortDate": "2026-11-23T00:00:00+00:00"
+    },
+    {
+      "title": "International Neuromorphic Computing Conference, 11-13 May 2027",
+      "date": "11-13 May 2027",
+      "location": "United Kingdom",
+      "url": "https://www.uk-neuromorphic-centre.net/event-details/international-neuromorphic-computing-conference-11-13-may-2027",
+      "source": "neurosync",
+      "sourceLabel": "NeuroSYNC",
+      "sortDate": "2027-05-11T00:00:00+00:00"
+    }
+  ],
+  "errors": []
+}
