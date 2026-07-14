@@ -31,11 +31,14 @@
   "use strict";
 
   var grid = document.getElementById("events-grid");
+  var pastSection = document.getElementById("events-past");
+  var pastList = document.getElementById("events-past-list");
   if (!grid) return;
 
-  var MAX_EVENTS = 6;
+  var MAX_UPCOMING = 6;
+  var MAX_PAST = 10;
 
-  function setStatus(text) {
+  function setGridStatus(text) {
     grid.innerHTML = "";
     var p = document.createElement("p");
     p.className = "events-status";
@@ -67,23 +70,62 @@
     return article;
   }
 
+  function buildPastRow(event) {
+    var li = document.createElement("li");
+    li.className = "events-past-row";
+
+    var link = document.createElement("a");
+    link.href = event.url || "#";
+    link.target = "_blank";
+    link.rel = "noopener";
+
+    var date = document.createElement("span");
+    date.className = "events-past-date";
+    date.textContent = event.date || "";
+    link.appendChild(date);
+
+    var title = document.createElement("span");
+    title.className = "events-past-title";
+    title.textContent = event.title || "";
+    link.appendChild(title);
+
+    li.appendChild(link);
+    return li;
+  }
+
   fetch("assets/events.json")
     .then(function (res) {
       if (!res.ok) throw new Error("events.json " + res.status);
       return res.json();
     })
     .then(function (data) {
-      var events = Array.isArray(data.events) ? data.events.slice(0, MAX_EVENTS) : [];
-      if (!events.length) {
-        setStatus(grid.dataset.emptyText || "No upcoming events right now.");
-        return;
+      var all = Array.isArray(data.events) ? data.events : [];
+      var upcoming = all.filter(function (e) { return e.status === "upcoming"; }).slice(0, MAX_UPCOMING);
+      var past = all.filter(function (e) { return e.status === "past"; }).slice(-MAX_PAST).reverse();
+
+      if (!upcoming.length) {
+        setGridStatus(grid.dataset.emptyText || "No upcoming events right now.");
+      } else {
+        grid.innerHTML = "";
+        upcoming.forEach(function (event) {
+          grid.appendChild(buildCard(event));
+        });
       }
-      grid.innerHTML = "";
-      events.forEach(function (event) {
-        grid.appendChild(buildCard(event));
-      });
+
+      if (pastSection && pastList) {
+        if (!past.length) {
+          pastSection.hidden = true;
+        } else {
+          pastList.innerHTML = "";
+          past.forEach(function (event) {
+            pastList.appendChild(buildPastRow(event));
+          });
+          pastSection.hidden = false;
+        }
+      }
     })
     .catch(function () {
-      setStatus(grid.dataset.errorText || "Couldn't load events right now.");
+      setGridStatus(grid.dataset.errorText || "Couldn't load events right now.");
+      if (pastSection) pastSection.hidden = true;
     });
 })();

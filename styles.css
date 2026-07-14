@@ -540,6 +540,77 @@ html.reveal-armed .hero-visual.is-visible .venn-ni {
   padding: 8px 0;
 }
 
+.events-past {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid var(--color-hair);
+}
+
+.events-past-toggle {
+  cursor: pointer;
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-mono);
+  user-select: none;
+}
+.events-past-toggle::-webkit-details-marker { display: none; }
+.events-past-toggle::before {
+  content: "→";
+  display: inline-block;
+  color: var(--color-accent);
+  transition: transform 0.15s ease;
+}
+.events-past[open] .events-past-toggle::before {
+  transform: rotate(90deg);
+}
+.events-past-toggle:hover {
+  color: var(--color-accent);
+}
+
+.events-past-list {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.events-past-row {
+  border-top: 1px solid var(--color-hair);
+}
+.events-past-row:last-child {
+  border-bottom: 1px solid var(--color-hair);
+}
+
+.events-past-row a {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  padding: 12px 4px;
+  text-decoration: none;
+  color: var(--color-ink);
+  transition: color 0.15s ease;
+}
+.events-past-row a:hover {
+  color: var(--color-accent);
+}
+
+.events-past-date {
+  flex: 0 0 auto;
+  min-width: 13ch;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--color-mono);
+}
+
+.events-past-title {
+  flex: 1 1 auto;
+  font-size: 14.5px;
+}
+
 /* ============================================================
    Resources
    ============================================================ */
