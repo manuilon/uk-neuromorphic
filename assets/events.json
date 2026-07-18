@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T11:10:09.964012+00:00",
+  "generatedAt": "2026-07-18T10:46:51.832122+00:00",
   "events": [
     {
       "title": "International workshop: FreQomb: Optical Frequency Combs Workshop 2025 (1 - 4 July 2025) Nice, France",
@@ -172,5 +172,10 @@
       "sortDate": "2027-05-11T00:00:00+00:00"
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "source": "neuroware",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    }
+  ]
 }
