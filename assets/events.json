@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T12:14:02.661287+00:00",
+  "generatedAt": "2026-07-23T12:11:24.229218+00:00",
   "events": [
     {
       "title": "International workshop: FreQomb: Optical Frequency Combs Workshop 2025 (1 - 4 July 2025) Nice, France",
@@ -150,6 +150,16 @@
       "sourceLabel": "NeuMat",
       "status": "upcoming",
       "sortDate": "2026-10-12T00:00:00+00:00"
+    },
+    {
+      "title": "Showcase Your Research at the Royal Society",
+      "date": "23-25 November 2026",
+      "location": "",
+      "url": "https://www.neumat.co.uk/news/news-articles/royal-society-poster-session/",
+      "source": "neumat",
+      "sourceLabel": "NeuMat",
+      "status": "upcoming",
+      "sortDate": "2026-11-23T00:00:00+00:00"
     },
     {
       "title": "Royal Society Hooke Discussion and Industry Events",
