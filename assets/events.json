@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T12:30:18.287274+00:00",
+  "generatedAt": "2026-08-05T12:27:08.563598+00:00",
   "events": [
     {
       "title": "International workshop: FreQomb: Optical Frequency Combs Workshop 2025 (1 - 4 July 2025) Nice, France",
@@ -170,6 +170,16 @@
       "sourceLabel": "NeuMat",
       "status": "upcoming",
       "sortDate": "2026-11-23T00:00:00+00:00"
+    },
+    {
+      "title": "NeuMat Spotlight: NICE 2027 Comes to the UK",
+      "date": "6\u20138 April 2027",
+      "location": "",
+      "url": "https://www.neumat.co.uk/news/news-articles/neumat-spotlight-nice-2027-comes-to-the-uk/",
+      "source": "neumat",
+      "sourceLabel": "NeuMat",
+      "status": "upcoming",
+      "sortDate": "2027-04-06T00:00:00+00:00"
     },
     {
       "title": "International Neuromorphic Computing Conference, 11-13 May 2027",
