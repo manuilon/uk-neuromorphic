@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T07:02:35.256704+00:00",
+  "generatedAt": "2026-08-25T06:52:08.400908+00:00",
   "events": [
     {
       "title": "International workshop: FreQomb: Optical Frequency Combs Workshop 2025 (1 - 4 July 2025) Nice, France",
@@ -32,14 +32,14 @@
       "sortDate": "2026-02-01T00:00:00+00:00"
     },
     {
-      "title": "NeuMat Spotlight: Two Major Neuromorphic Computing Events Coming to Southampton, 2\u20133 March 2026",
-      "date": "2\u20133 March 2026",
-      "location": "",
-      "url": "https://www.neumat.co.uk/news/news-articles/neumat-spotlight-two-major-neuromorphic-computing-events-coming-to-southampton-2-3-march-2026/",
-      "source": "neumat",
-      "sourceLabel": "NeuMat",
+      "title": "International Workshop on ML, AI, Neuromorphic Computing (19-21 May 2026)",
+      "date": "19-21 May 2026",
+      "location": "Aula Magna, Building Guillem Cifre de Co",
+      "url": "https://www.uk-neuromorphic-centre.net/event-details/international-workshop-on-ml-ai-neuromorphic-computing-19-21-may-2026",
+      "source": "neurosync",
+      "sourceLabel": "NeuroSYNC",
       "status": "past",
-      "sortDate": "2026-03-02T00:00:00+00:00"
+      "sortDate": "2026-05-19T00:00:00+00:00"
     },
     {
       "title": "NEXT-AI 2026",
@@ -192,5 +192,10 @@
       "sortDate": "2027-05-11T00:00:00+00:00"
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "source": "neuroware",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    }
+  ]
 }
