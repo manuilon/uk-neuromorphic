@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T11:54:28.923713+00:00",
+  "generatedAt": "2026-09-08T10:50:56.547190+00:00",
   "events": [
     {
       "title": "International workshop: FreQomb: Optical Frequency Combs Workshop 2025 (1 - 4 July 2025) Nice, France",
@@ -132,6 +132,16 @@
       "sortDate": "2026-08-24T00:00:00+00:00"
     },
     {
+      "title": "NeuMat Spotlight: New Innovate UK Investor Partnerships Competition Targets Semiconductor Innovation",
+      "date": "1 September 2026",
+      "location": "",
+      "url": "https://www.neumat.co.uk/news/news-articles/neumat-spotlight-new-innovate-uk-investor-partnerships-competition-targets-semiconductor-innovation/",
+      "source": "neumat",
+      "sourceLabel": "NeuMat",
+      "status": "past",
+      "sortDate": "2026-09-01T00:00:00+00:00"
+    },
+    {
       "title": "Nature of Intelligence: Bridging Animal and Artificial Intelligence",
       "date": "21-22 September 2026",
       "location": "",
@@ -192,10 +202,5 @@
       "sortDate": "2027-05-11T00:00:00+00:00"
     }
   ],
-  "errors": [
-    {
-      "source": "neuroware",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    }
-  ]
+  "errors": []
 }
