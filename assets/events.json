@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T12:22:32.031457+00:00",
+  "generatedAt": "2026-09-30T12:07:35.894165+00:00",
   "events": [
     {
       "title": "International workshop: FreQomb: Optical Frequency Combs Workshop 2025 (1 - 4 July 2025) Nice, France",
@@ -70,6 +70,16 @@
       "sourceLabel": "NeuroSYNC",
       "status": "past",
       "sortDate": "2026-04-29T00:00:00+00:00"
+    },
+    {
+      "title": "NeuMat Spotlight: Building Europe\u2019s Neuromorphic Future through EuroNMC",
+      "date": "May 2026",
+      "location": "",
+      "url": "https://www.neumat.co.uk/news/news-articles/neumat-spotlight-building-europe-s-neuromorphic-future-through-euronmc/",
+      "source": "neumat",
+      "sourceLabel": "NeuMat",
+      "status": "past",
+      "sortDate": "2026-05-01T00:00:00+00:00"
     },
     {
       "title": "International workshop: Machine Learning Meets Photonics 2025",
