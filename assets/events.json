@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T12:41:20.689614+00:00",
+  "generatedAt": "2026-10-02T12:05:41.720519+00:00",
   "events": [
     {
       "title": "International workshop: FreQomb: Optical Frequency Combs Workshop 2025 (1 - 4 July 2025) Nice, France",
@@ -170,6 +170,16 @@
       "sourceLabel": "NeuMat",
       "status": "upcoming",
       "sortDate": "2026-10-12T00:00:00+00:00"
+    },
+    {
+      "title": "Connecting the UK\u2019s Neuromorphic Computing Ecosystem",
+      "date": "29 October 2026",
+      "location": "",
+      "url": "https://www.neumat.co.uk/news/news-articles/connecting-the-neuromorphic-ecosystem/",
+      "source": "neumat",
+      "sourceLabel": "NeuMat",
+      "status": "upcoming",
+      "sortDate": "2026-10-29T00:00:00+00:00"
     },
     {
       "title": "Showcase Your Research at the Royal Society",
