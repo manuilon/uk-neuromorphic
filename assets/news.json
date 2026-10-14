@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T09:26:45.230748+00:00",
+  "generatedAt": "2026-10-14T11:25:35.841910+00:00",
   "news": [
     {
       "title": "EuroNMC: A New European Network for Neuromorphic Computing",
@@ -82,6 +82,14 @@
       "sourceLabel": "NeuroSYNC"
     },
     {
+      "title": "New NeuMat Podcast: From Memristors to Neuromorphic Computing - Building the Future of AI Hardware",
+      "url": "https://www.neumat.co.uk/news/news-articles/new-neumat-podcast-from-memristors-to-neuromorphic-computing-building-the-future-of-ai-hardware/",
+      "date": "2026-10-14",
+      "summary": "What will it take to make artificial intelligence more energy efficient, secure, and sustainable? Why are researchers looking beyond conventional computing architectures, and how could emerging memory technologies help…",
+      "source": "neumat",
+      "sourceLabel": "NeuMat"
+    },
+    {
       "title": "Connecting the UK’s Neuromorphic Computing Ecosystem",
       "url": "https://www.neumat.co.uk/news/news-articles/connecting-the-neuromorphic-ecosystem/",
       "date": "2026-10-02",
@@ -150,14 +158,6 @@
       "url": "https://www.neumat.co.uk/news/news-articles/what-are-neuromorphic-systems/",
       "date": "2026-06-17",
       "summary": "NeuMat is pleased to spotlight the upcoming Cambridge x Manchester Partnership webinar, What Are Neuromorphic Systems? Taking place on 22 June 2026 , this online session will introduce the principles of neuromorphic…",
-      "source": "neumat",
-      "sourceLabel": "NeuMat"
-    },
-    {
-      "title": "UK Government's AI Hardware Plan: A Landmark Moment for Neuromorphic Computing",
-      "url": "https://www.neumat.co.uk/news/news-articles/uk-governments-ai-hardware-plan-a-landmark-moment-for-neuromorphic-computing/",
-      "date": "2026-06-16",
-      "summary": "The UK government has released its AI Hardware Plan, committing over £1.1 billion in targeted public and private investment to secure the country's position in the hardware technologies that underpin AI. For the…",
       "source": "neumat",
       "sourceLabel": "NeuMat"
     },
