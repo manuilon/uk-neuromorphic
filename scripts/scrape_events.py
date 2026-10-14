@@ -88,10 +88,12 @@ def find_date_mention(text):
     return None, None
 
 
-def guess_year_for_short_date(short_date, today, prefer_future=True):
+def guess_year_for_short_date(short_date, today, prefer_future=True, year=None):
     """NeuroSYNC's Wix widget renders 'Sat 01 May' with no year. Guess the
     nearest occurrence of that month/day in the requested direction —
-    forward for an upcoming-listed event, backward for a past-listed one."""
+    forward for an upcoming-listed event, backward for a past-listed one.
+    A year given explicitly (e.g. from "... Photonics 2025" in the title)
+    beats the guess."""
     m = re.search(r"(\d{1,2})\s+([A-Za-z]+)", short_date)
     if not m:
         return None
@@ -99,6 +101,11 @@ def guess_year_for_short_date(short_date, today, prefer_future=True):
     month = month_number(month_name)
     if not month:
         return None
+    if year:
+        try:
+            return datetime(year, month, int(day), tzinfo=timezone.utc)
+        except ValueError:
+            return None
     candidate_years = (today.year, today.year + 1) if prefer_future else (today.year, today.year - 1)
     for year in candidate_years:
         try:
@@ -137,7 +144,9 @@ def _neurosync_card_to_event(item, today, status):
         sort_date = title_date_parsed
     else:
         date_text = widget_date_text
-        guessed = guess_year_for_short_date(widget_date_text, today, prefer_future=(status == "upcoming"))
+        title_year = re.search(r"\b(20\d{2})\b", title)
+        guessed = guess_year_for_short_date(widget_date_text, today, prefer_future=(status == "upcoming"),
+                                            year=int(title_year.group(1)) if title_year else None)
         sort_date = guessed or today
 
     return {
@@ -308,6 +317,8 @@ def main():
 
     all_events.sort(key=lambda e: e["sortDate"])
     all_events = dedupe(all_events)
+    # dedupe() can swap a later-dated original into a repost's slot.
+    all_events.sort(key=lambda e: e["sortDate"])
 
     output = {
         "generatedAt": today.isoformat(),

@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-10-13T13:47:55.631616+00:00",
+  "generatedAt": "2026-10-14T09:27:11.438417+00:00",
   "events": [
+    {
+      "title": "International workshop: Machine Learning Meets Photonics 2025",
+      "date": "Mon 19 May",
+      "location": "Birmingham",
+      "url": "https://www.uk-neuromorphic-centre.net/event-details/international-workshop-machine-learning-meets-photonics-2025",
+      "source": "neurosync",
+      "sourceLabel": "NeuroSYNC",
+      "status": "past",
+      "sortDate": "2025-05-19T00:00:00+00:00"
+    },
     {
       "title": "International workshop: FreQomb: Optical Frequency Combs Workshop 2025 (1 - 4 July 2025) Nice, France",
       "date": "1 - 4 July 2025",
@@ -30,16 +40,6 @@
       "sourceLabel": "NeuMat",
       "status": "past",
       "sortDate": "2026-02-01T00:00:00+00:00"
-    },
-    {
-      "title": "International Workshop on ML, AI, Neuromorphic Computing (19-21 May 2026)",
-      "date": "19-21 May 2026",
-      "location": "Aula Magna, Building Guillem Cifre de Co",
-      "url": "https://www.uk-neuromorphic-centre.net/event-details/international-workshop-on-ml-ai-neuromorphic-computing-19-21-may-2026",
-      "source": "neurosync",
-      "sourceLabel": "NeuroSYNC",
-      "status": "past",
-      "sortDate": "2026-05-19T00:00:00+00:00"
     },
     {
       "title": "NEXT-AI 2026",
@@ -82,10 +82,10 @@
       "sortDate": "2026-05-01T00:00:00+00:00"
     },
     {
-      "title": "International workshop: Machine Learning Meets Photonics 2025",
-      "date": "Mon 19 May",
-      "location": "Birmingham",
-      "url": "https://www.uk-neuromorphic-centre.net/event-details/international-workshop-machine-learning-meets-photonics-2025",
+      "title": "International Workshop on ML, AI, Neuromorphic Computing (19-21 May 2026)",
+      "date": "19-21 May 2026",
+      "location": "Aula Magna, Building Guillem Cifre de Co",
+      "url": "https://www.uk-neuromorphic-centre.net/event-details/international-workshop-on-ml-ai-neuromorphic-computing-19-21-may-2026",
       "source": "neurosync",
       "sourceLabel": "NeuroSYNC",
       "status": "past",

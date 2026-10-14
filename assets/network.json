@@ -1,0 +1,377 @@
+{
+  "generatedAt": "2026-10-14T09:27:00.151446+00:00",
+  "source": "https://www.neumat.co.uk/network/",
+  "organisations": [
+    {
+      "id": "2933",
+      "name": "Geometry",
+      "type": "Other",
+      "specialisms": [
+        "2D materials",
+        "Neuromorphic computing",
+        "Reservoir computing",
+        "Spiking neural networks (SNNs)",
+        "Optoelectronics"
+      ],
+      "lat": 51.059148,
+      "lng": -1.315468,
+      "website": "https://www.geometry.xyz/"
+    },
+    {
+      "id": "2968",
+      "name": "Imperial College London, Electrical and Electronic Engineering",
+      "type": "Academia",
+      "specialisms": [
+        "Circuits",
+        "Architectures",
+        "Algorithms",
+        "Spiking neural networks (SNNs)",
+        "Edge AI / embedded AI"
+      ],
+      "lat": 51.499334,
+      "lng": -0.179178,
+      "website": "https://www.imperial.ac.uk"
+    },
+    {
+      "id": "2947",
+      "name": "Imperial College London, Physics",
+      "type": "Academia",
+      "specialisms": [
+        "Devices",
+        "Architectures",
+        "Algorithms",
+        "Spintronic / MTJ devices",
+        "Photonic devices"
+      ],
+      "lat": 51.499334,
+      "lng": -0.179178,
+      "website": "https://imperial.ac.uk"
+    },
+    {
+      "id": "2959",
+      "name": "Lancaster University",
+      "type": "Academia",
+      "specialisms": [
+        "Materials",
+        "Devices",
+        "Transistors",
+        "Neuromorphic computing",
+        "Analog computing"
+      ],
+      "lat": 54.010955,
+      "lng": -2.784229,
+      "website": "https://www.lancaster.ac.uk/"
+    },
+    {
+      "id": "2954",
+      "name": "Loughborough University",
+      "type": "Academia",
+      "specialisms": [
+        "Circuits",
+        "Memristors / resistive switching",
+        "Reservoir computing",
+        "Device physics modelling",
+        "Oscillators / dynamical devices",
+        "Neuromorphic computing",
+        "Photonic neuromorphic devices",
+        "Magnetic and spin-based computing"
+      ],
+      "lat": 52.763845,
+      "lng": -1.2372582,
+      "website": "https://www.lboro.ac.uk/departments/physics/"
+    },
+    {
+      "id": "2963",
+      "name": "NeuroSYNC at Aston University",
+      "type": "Academia",
+      "specialisms": [
+        "Neuromorphic computing"
+      ],
+      "lat": 52.5899324,
+      "lng": -1.8485017,
+      "website": "https://www.uk-neuromorphic-centre.net"
+    },
+    {
+      "id": "2944",
+      "name": "NeuroWare: the UK Innovation and Knowledge Centre for Neuromorphic Computing Hardware",
+      "type": "Academia",
+      "specialisms": [
+        "CMOS-compatible materials",
+        "Hybrid CMOS–emerging systems",
+        "Quantum photonics",
+        "Computational neuroscience",
+        "Neuromorphic computing"
+      ],
+      "lat": 51.537542,
+      "lng": -0.0119821,
+      "website": "https://www.neuroware-ikc.com"
+    },
+    {
+      "id": "2981",
+      "name": "Oxford Brookes University",
+      "type": "Academia",
+      "specialisms": [
+        "Neuromorphic computing",
+        "In-memory computing",
+        "Edge AI / embedded AI",
+        "Biological neural dynamics",
+        "Autonomous systems"
+      ],
+      "lat": 51.754386,
+      "lng": -1.223182,
+      "website": "https://www.brookes.ac.uk"
+    },
+    {
+      "id": "2979",
+      "name": "Queen's University Belfast",
+      "type": "Academia",
+      "specialisms": [
+        "Spiking neural networks (SNNs)",
+        "Edge AI / embedded AI",
+        "FPGA / reconfigurable hardware",
+        "Optimisation algorithms",
+        "Brain-inspired architectures"
+      ],
+      "lat": 54.5817666,
+      "lng": -5.9373546,
+      "website": "https://www.qub.ac.uk/schools/eeecs/"
+    },
+    {
+      "id": "2931",
+      "name": "Quinas Technology Limited",
+      "type": "Industry",
+      "specialisms": [
+        "Materials",
+        "Devices",
+        "Architectures",
+        "Analog computing",
+        "Edge AI / embedded AI"
+      ],
+      "lat": 51.521673,
+      "lng": -0.143705,
+      "website": "https://quinas.tech"
+    },
+    {
+      "id": "2935",
+      "name": "Rayd Technologies Ltd",
+      "type": "Industry",
+      "specialisms": [
+        "Photonic devices",
+        "Neuromorphic computing",
+        "Analog computing",
+        "Physics-inspired computing",
+        "Photonic neural networks"
+      ],
+      "lat": 51.51481,
+      "lng": -0.094793,
+      "website": "https://www.rayd.tech"
+    },
+    {
+      "id": "2133",
+      "name": "UCL, Department of Electronic & Electrical Engineering",
+      "type": "Academia",
+      "specialisms": [
+        "Algorithms"
+      ],
+      "lat": 51.5197,
+      "lng": -0.1257,
+      "website": "https://www.ucl.ac.uk/engineering/electronic-electrical-engineering"
+    },
+    {
+      "id": "2957",
+      "name": "UCL, Department of Physics and Astronomy",
+      "type": "Academia",
+      "specialisms": [
+        "Materials",
+        "Oxides",
+        "Nitrides",
+        "Memristors / resistive switching",
+        "Device physics modelling"
+      ],
+      "lat": 51.5253435,
+      "lng": -0.1334389,
+      "website": "https://www.ucl.ac.uk/mathematical-physical-sciences/physics-astronomy"
+    },
+    {
+      "id": "2130",
+      "name": "University of Cambridge, Department of Materials Science & Metallurgy",
+      "type": "Academia",
+      "specialisms": [],
+      "lat": 52.2096,
+      "lng": 0.0902,
+      "website": "https://www.msm.cam.ac.uk/"
+    },
+    {
+      "id": "2951",
+      "name": "University of Cambridge, Electrical Engineering",
+      "type": "Academia",
+      "specialisms": [
+        "Circuits",
+        "Oscillators / dynamical devices",
+        "Sensors",
+        "Reservoir computing",
+        "Sensor–compute integration"
+      ],
+      "lat": 52.20885,
+      "lng": 0.090463,
+      "website": "https://www.eng.cam.ac.uk/research/academic-divisions/electrical-engineering-0"
+    },
+    {
+      "id": "2215",
+      "name": "University of Edinburgh, School of Engineering",
+      "type": "Academia",
+      "specialisms": [],
+      "lat": 55.92417,
+      "lng": -3.1792,
+      "website": "https://eng.ed.ac.uk/"
+    },
+    {
+      "id": "2946",
+      "name": "University of Glasgow",
+      "type": "Academia",
+      "specialisms": [
+        "Memristors / resistive switching",
+        "Phase-change devices",
+        "Ferroelectric devices",
+        "Photonic devices",
+        "Neuromorphic computing"
+      ],
+      "lat": 55.8716587,
+      "lng": -4.2883961,
+      "website": "https://www.gla.ac.uk/schools/engineering/"
+    },
+    {
+      "id": "2965",
+      "name": "University of Hertfordshire",
+      "type": "Academia",
+      "specialisms": [
+        "Architectures",
+        "Algorithms",
+        "Spiking neural networks (SNNs)",
+        "FPGA / reconfigurable hardware",
+        "Hardware–software co-design"
+      ],
+      "lat": 51.7528043,
+      "lng": -0.2433225,
+      "website": "https://www.herts.ac.uk/"
+    },
+    {
+      "id": "2956",
+      "name": "University of Hull",
+      "type": "Academia",
+      "specialisms": [
+        "Materials",
+        "Devices",
+        "Circuits",
+        "Organic / polymer electronics",
+        "Memristors / resistive switching"
+      ],
+      "lat": 53.771798,
+      "lng": -0.36639,
+      "website": "https://www.hull.ac.uk"
+    },
+    {
+      "id": "2942",
+      "name": "University of Leeds",
+      "type": "Academia",
+      "specialisms": [
+        "Materials",
+        "Magnetic / spintronic materials",
+        "Spintronic / MTJ devices",
+        "Thin-film deposition",
+        "Lithography / nanofabrication"
+      ],
+      "lat": 53.807974,
+      "lng": -1.553334,
+      "website": "https://www.leeds.ac.uk"
+    },
+    {
+      "id": "2949",
+      "name": "University of Manchester, ICNS",
+      "type": "Academia",
+      "specialisms": [
+        "Algorithms",
+        "Sensors",
+        "Neuromorphic computing",
+        "Digital design",
+        "Hardware–software co-design"
+      ],
+      "lat": 53.4679245,
+      "lng": -2.2331459,
+      "website": "https://www.icns.manchester.ac.uk/"
+    },
+    {
+      "id": "2971",
+      "name": "University of Oxford, Department of Chemistry",
+      "type": "Academia",
+      "specialisms": [
+        "Materials",
+        "Devices",
+        "Chalcogenides",
+        "Photonic devices",
+        "Thin-film deposition"
+      ],
+      "lat": 51.7580481,
+      "lng": -1.2549207,
+      "website": "https://www.chem.ox.ac.uk/"
+    },
+    {
+      "id": "2961",
+      "name": "University of Oxford, Department of Materials",
+      "type": "Academia",
+      "specialisms": [
+        "Memristors / resistive switching",
+        "Electrical characterisation",
+        "Device physics modelling",
+        "Multiscale modelling",
+        "TCAD / simulation"
+      ],
+      "lat": 51.760427,
+      "lng": -1.259345,
+      "website": "https://www.materials.ox.ac.uk"
+    },
+    {
+      "id": "2973",
+      "name": "University of Southampton",
+      "type": "Academia",
+      "specialisms": [
+        "Materials",
+        "Devices",
+        "2D materials",
+        "Electrochemical / ionic devices",
+        "Reservoir computing"
+      ],
+      "lat": 50.934966,
+      "lng": -1.3963756,
+      "website": "https://www.southampton.ac.uk/"
+    },
+    {
+      "id": "2967",
+      "name": "University of Stirling",
+      "type": "Academia",
+      "specialisms": [
+        "Edge AI / embedded AI",
+        "Deep learning",
+        "Healthcare / biomedical"
+      ],
+      "lat": 56.1446581,
+      "lng": -3.9199197,
+      "website": "https://www.stir.ac.uk/"
+    },
+    {
+      "id": "2977",
+      "name": "University of Sussex",
+      "type": "Academia",
+      "specialisms": [
+        "Software / Toolchains",
+        "Neuromorphic computing",
+        "Spiking neural networks (SNNs)",
+        "FPGA / reconfigurable hardware",
+        "Computational neuroscience"
+      ],
+      "lat": 50.8426562,
+      "lng": -0.1393643,
+      "website": "https://www.sussex.ac.uk/"
+    }
+  ]
+}

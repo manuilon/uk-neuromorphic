@@ -1,4 +1,4 @@
-name: Scrape events
+name: Scrape news, events and network map
 
 on:
   schedule:
@@ -22,17 +22,24 @@ jobs:
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
 
-      - name: Run scraper
+      - name: Scrape events
         run: python3 scripts/scrape_events.py
 
-      - name: Commit updated events.json
+      - name: Scrape news
+        run: python3 scripts/scrape_news.py
+
+      - name: Scrape NeuMat network map
+        run: python3 scripts/scrape_network.py
+
+      - name: Commit updated data
         run: |
-          if git diff --quiet -- assets/events.json; then
-            echo "No changes to events.json"
+          FILES="assets/events.json assets/news.json assets/network.json"
+          git add $FILES
+          if git diff --cached --quiet -- $FILES; then
+            echo "No changes to data files"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/events.json
-          git commit -m "Update events.json"
+          git commit -m "Update news, events and network map"
           git push

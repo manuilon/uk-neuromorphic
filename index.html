@@ -9,7 +9,7 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="Neuromorphic Computing in the UK">
 <meta property="og:description" content="Brain-inspired computing for energy-efficient AI — a coordinated national community of research, networking, and commercialisation.">
-<meta property="og:url" content="https://uk-neuromorphic.net/">
+<meta property="og:url" content="https://www.neuromorphic-uk.com/">
 <meta property="og:image" content="assets/og-image.png"><!-- PLACEHOLDER: 1200x630 social share image -->
 <meta name="twitter:card" content="summary_large_image">
 
@@ -20,6 +20,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -31,7 +32,8 @@
     <a href="#top" class="wordmark">UK Neuromorphic</a>
     <ul class="nav-links">
       <li><a href="#ecosystem">Ecosystem</a></li>
-      <li><a href="#landscape">Landscape</a></li>
+      <li><a href="#network">Network</a></li>
+      <li><a href="#news">News</a></li>
       <li><a href="#events">Events</a></li>
       <li><a href="#resources">Resources</a></li>
       <li><a href="#contact">Contact</a></li>
@@ -139,22 +141,57 @@
     </div>
   </section>
 
-  <section class="landscape" id="landscape">
+  <section class="network" id="network">
     <div class="section-inner">
-      <p class="kicker">Wider landscape</p>
-      <h2>Built on a broader UK effort</h2>
-      <p class="section-intro">The initiatives build on and connect a broader UK landscape of neuromorphic research and industry.</p>
+      <p class="kicker">Network map</p>
+      <h2>UK neuromorphic research network</h2>
+      <p class="section-intro">Universities, companies and other organisations working on neuromorphic technologies across the UK, from the NeuMat Research Network Map.</p>
 
-      <ul class="logo-band">
-        <li class="logo-slot"><span><!-- PLACEHOLDER: partner logo/link -->[PARTNER 1]</span></li>
-        <li class="logo-slot"><span><!-- PLACEHOLDER: partner logo/link -->[PARTNER 2]</span></li>
-        <li class="logo-slot"><span><!-- PLACEHOLDER: partner logo/link -->[PARTNER 3]</span></li>
-        <li class="logo-slot"><span><!-- PLACEHOLDER: partner logo/link -->[PARTNER 4]</span></li>
-        <li class="logo-slot"><span><!-- PLACEHOLDER: partner logo/link -->[PARTNER 5]</span></li>
-        <li class="logo-slot"><span><!-- PLACEHOLDER: partner logo/link -->[PARTNER 6]</span></li>
-        <li class="logo-slot"><span><!-- PLACEHOLDER: partner logo/link -->[PARTNER 7]</span></li>
-        <li class="logo-slot"><span><!-- PLACEHOLDER: partner logo/link -->[PARTNER 8]</span></li>
-      </ul>
+      <div class="network-map" id="network-map" role="region" aria-label="Map of organisations in the UK neuromorphic network"></div>
+      <ul class="network-legend" id="network-legend"></ul>
+
+      <div class="network-foot">
+        <p class="network-credit">Map data: <a href="https://www.neumat.co.uk/network/" target="_blank" rel="noopener">NeuMat Research Network Map</a>, updated daily.</p>
+        <a class="resource-link" href="https://www.neumat.co.uk/network-form" target="_blank" rel="noopener">Add your organisation →</a>
+      </div>
+
+      <details class="events-past network-list" id="network-list-wrap" hidden>
+        <summary class="events-past-toggle" id="network-list-toggle">All organisations</summary>
+        <ul class="events-past-list" id="network-list"></ul>
+      </details>
+    </div>
+  </section>
+
+  <section class="news" id="news">
+    <div class="section-inner">
+      <p class="kicker">News</p>
+      <h2>Latest from the initiatives</h2>
+
+      <div class="card-grid news-grid" id="news-grid" data-empty-text="No recent posts." data-error-text="Couldn't load news right now — please visit the site directly.">
+        <article class="card news-col" data-source="neurosync">
+          <div class="card-logo-frame">
+            <img class="card-logo" src="assets/logos/NeuroSYNC_3-cropped.png" alt="NeuroSYNC">
+          </div>
+          <ul class="news-list"></ul>
+          <a class="card-link" href="https://www.uk-neuromorphic-centre.net/news" target="_blank" rel="noopener">All NeuroSYNC news →</a>
+        </article>
+
+        <article class="card news-col" data-source="neumat">
+          <div class="card-logo-frame">
+            <img class="card-logo" src="assets/logos/logo-neumat.png" alt="NeuMat">
+          </div>
+          <ul class="news-list"></ul>
+          <a class="card-link" href="https://www.neumat.co.uk/news/" target="_blank" rel="noopener">All NeuMat news →</a>
+        </article>
+
+        <article class="card news-col" data-source="neuroware">
+          <div class="card-logo-frame">
+            <img class="card-logo" src="assets/logos/NeuroWare-H-full-colour-logo-transparent.png" alt="NeuroWare IKC">
+          </div>
+          <ul class="news-list"></ul>
+          <a class="card-link" href="https://neuroware-ikc.com/updates/" target="_blank" rel="noopener">All NeuroWare news →</a>
+        </article>
+      </div>
     </div>
   </section>
 
@@ -238,6 +275,7 @@
   </div>
 </footer>
 
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script src="script.js"></script>
 </body>
 </html>
