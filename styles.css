@@ -551,9 +551,9 @@ html.reveal-armed .hero-visual.is-visible .venn-ni {
 .network-legend {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px 20px;
-  margin-top: 14px;
-  font-size: 13px;
+  gap: 8px 24px;
+  margin-top: 16px;
+  font-size: 14.5px;
   color: var(--color-mono);
 }
 
@@ -573,16 +573,22 @@ html.reveal-armed .hero-visual.is-visible .venn-ni {
 
 .network-foot {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
-  gap: 8px 24px;
+  gap: 16px 24px;
   flex-wrap: wrap;
-  margin-top: 12px;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid var(--color-hair);
 }
 
 .network-credit {
-  font-size: 13px;
+  font-size: 14.5px;
   color: var(--color-mono);
+}
+
+.network-cta {
+  flex-shrink: 0;
 }
 .network-credit a { color: var(--color-ink); }
 .network-credit a:hover { color: var(--color-accent); }

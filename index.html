@@ -21,7 +21,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-<link rel="stylesheet" href="styles.css">
+<!-- Bump ?v= whenever styles.css or script.js change, so browsers never mix a new page with old cached files. -->
+<link rel="stylesheet" href="styles.css?v=2026-10-14b">
 </head>
 <body>
 
@@ -152,7 +153,7 @@
 
       <div class="network-foot">
         <p class="network-credit">Map data: <a href="https://www.neumat.co.uk/network/" target="_blank" rel="noopener">NeuMat Research Network Map</a>, updated daily.</p>
-        <a class="resource-link" href="https://www.neumat.co.uk/network-form" target="_blank" rel="noopener">Add your organisation →</a>
+        <a class="btn btn-primary network-cta" href="https://www.neumat.co.uk/network-form" target="_blank" rel="noopener">Add your organisation →</a>
       </div>
 
       <details class="events-past network-list" id="network-list-wrap" hidden>
@@ -228,7 +229,7 @@
           <p class="resource-lead resource-lead--ware">Led by NeuroWare</p>
           <h3>Neuromorphic Technologies: A Roadmap to 2050</h3>
           <p>The long-term, policy-facing view: a 25-year vision for how the UK becomes a global leader in brain-inspired computing, written for a broad, non-expert audience.</p>
-          <a class="resource-link" href="https://neuroware-ikc.com/policy-impact/" target="_blank" rel="noopener">Details →</a>
+          <a class="resource-link" href="https://neuroware-ikc.com/wp-content/uploads/2026/09/NeuroWare_Roadmap_Final.pdf" target="_blank" rel="noopener">View roadmap (PDF) →</a>
         </article>
 
         <article class="resource-card">
@@ -276,6 +277,6 @@
 </footer>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script src="script.js"></script>
+<script src="script.js?v=2026-10-14b"></script>
 </body>
 </html>
