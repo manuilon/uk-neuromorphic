@@ -22,7 +22,7 @@
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 <!-- Bump ?v= whenever styles.css or script.js change, so browsers never mix a new page with old cached files. -->
-<link rel="stylesheet" href="styles.css?v=2026-10-14b">
+<link rel="stylesheet" href="styles.css?v=2026-10-16">
 </head>
 <body>
 
@@ -201,6 +201,20 @@
       <p class="kicker">Events</p>
       <h2>What's coming up</h2>
 
+      <!-- Featured event: hand-added (the scraper doesn't cover it). script.js hides it after data-until. -->
+      <article class="event-featured" data-until="2026-10-29">
+        <div class="event-featured-meta">
+          <p class="event-featured-flag">Featured · Online webinar</p>
+          <p class="event-featured-when">Thu 29 Oct 2026 · 10:00–11:30</p>
+        </div>
+        <h3>Connecting the UK's neuromorphic computing ecosystem</h3>
+        <p class="event-featured-body">An Innovate UK Business Connect webinar introducing neuromorphic, brain-inspired computing and its promise for energy-efficient AI and edge applications. Hear from the three UKRI-funded initiatives — NeuMat, NeuroSYNC and NeuroWare — and how businesses and the wider innovation community can get involved. Open to anyone working on low-power computing, AI, IoT or related supply chains, from industry, academia, policy or investment.</p>
+        <div class="event-featured-actions">
+          <a class="event-featured-cta" href="https://web-eur.cvent.com/event/a1479e97-be0e-4fc2-ac60-cb86244f7a85/register" target="_blank" rel="noopener">Register →</a>
+          <a class="resource-link" href="https://iuk-business-connect.org.uk/events/connecting-the-uks-neuromorphic-computing-ecosystem/" target="_blank" rel="noopener">Event details</a>
+        </div>
+      </article>
+
       <div class="resource-grid" id="events-grid" data-empty-text="No upcoming events listed right now — check back soon, or visit NeuroSYNC, NeuMat or NeuroWare directly." data-error-text="Couldn't load events right now — please check back later.">
         <p class="events-status">Loading upcoming events…</p>
       </div>
@@ -277,6 +291,6 @@
 </footer>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script src="script.js?v=2026-10-14b"></script>
+<script src="script.js?v=2026-10-16"></script>
 </body>
 </html>

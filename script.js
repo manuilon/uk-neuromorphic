@@ -30,6 +30,17 @@
 (function () {
   "use strict";
 
+  // Hide hand-added featured events once their day has passed.
+  var todayIso = new Date().toISOString().slice(0, 10);
+  // Visible featured titles are also dropped from the scraped grid, so they don't show twice.
+  function titleKey(text) { return (text || "").toLowerCase().replace(/[^a-z0-9]+/g, ""); }
+  var featuredKeys = {};
+  Array.prototype.forEach.call(document.querySelectorAll(".event-featured[data-until]"), function (el) {
+    if (el.dataset.until < todayIso) { el.hidden = true; return; }
+    var h3 = el.querySelector("h3");
+    if (h3) featuredKeys[titleKey(h3.textContent)] = true;
+  });
+
   var grid = document.getElementById("events-grid");
   var pastSection = document.getElementById("events-past");
   var pastList = document.getElementById("events-past-list");
@@ -100,7 +111,9 @@
     })
     .then(function (data) {
       var all = Array.isArray(data.events) ? data.events : [];
-      var upcoming = all.filter(function (e) { return e.status === "upcoming"; }).slice(0, MAX_UPCOMING);
+      var upcoming = all.filter(function (e) {
+        return e.status === "upcoming" && !featuredKeys[titleKey(e.title)];
+      }).slice(0, MAX_UPCOMING);
       var past = all.filter(function (e) { return e.status === "past"; }).slice(-MAX_PAST).reverse();
 
       if (!upcoming.length) {
