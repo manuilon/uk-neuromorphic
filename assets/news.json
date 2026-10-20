@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T12:31:52.031128+00:00",
+  "generatedAt": "2026-10-20T11:06:59.308769+00:00",
   "news": [
     {
       "title": "EuroNMC: A New European Network for Neuromorphic Computing",
@@ -82,6 +82,14 @@
       "sourceLabel": "NeuroSYNC"
     },
     {
+      "title": "NeuMat Spotlight: Discover CANUTE, the new UK–Canada semiconductor network",
+      "url": "https://www.neumat.co.uk/news/news-articles/neumat-spotlight-discover-canute-the-new-uk-canada-semiconductor-network/",
+      "date": "2026-10-19",
+      "summary": "A new UK–Canada initiative is creating opportunities for Early Career Researchers to build international collaborations and help shape the future of semiconductor research. CANUTE is a UKRI-funded UK–Canada…",
+      "source": "neumat",
+      "sourceLabel": "NeuMat"
+    },
+    {
       "title": "New NeuMat Podcast: From Memristors to Neuromorphic Computing - Building the Future of AI Hardware",
       "url": "https://www.neumat.co.uk/news/news-articles/new-neumat-podcast-from-memristors-to-neuromorphic-computing-building-the-future-of-ai-hardware/",
       "date": "2026-10-14",
@@ -150,14 +158,6 @@
       "url": "https://www.neumat.co.uk/news/news-articles/royal-society-poster-session/",
       "date": "2026-07-23",
       "summary": "Researchers are invited to showcase their work at a poster session taking place during the Royal Society Hooke Discussion Meeting and Industry Event - Innovating Technologies for Neuromorphic Computing (23-25 November…",
-      "source": "neumat",
-      "sourceLabel": "NeuMat"
-    },
-    {
-      "title": "NeuMat Spotlight: What Are Neuromorphic Systems?",
-      "url": "https://www.neumat.co.uk/news/news-articles/what-are-neuromorphic-systems/",
-      "date": "2026-06-17",
-      "summary": "NeuMat is pleased to spotlight the upcoming Cambridge x Manchester Partnership webinar, What Are Neuromorphic Systems? Taking place on 22 June 2026 , this online session will introduce the principles of neuromorphic…",
       "source": "neumat",
       "sourceLabel": "NeuMat"
     },
