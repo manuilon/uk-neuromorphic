@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T11:06:38.430924+00:00",
+  "generatedAt": "2026-10-21T11:22:49.143957+00:00",
   "events": [
     {
       "title": "International workshop: Machine Learning Meets Photonics 2025",
@@ -20,16 +20,6 @@
       "sourceLabel": "NeuroSYNC",
       "status": "past",
       "sortDate": "2025-07-01T00:00:00+00:00"
-    },
-    {
-      "title": "UK Multidisciplinary Centre for Neuromorphic Computing Official Launch",
-      "date": "Tue 21 Oct",
-      "location": "House of Lords",
-      "url": "https://www.uk-neuromorphic-centre.net/event-details/uk-multidisciplinary-centre-for-neuromorphic-computing-official-launch",
-      "source": "neurosync",
-      "sourceLabel": "NeuroSYNC",
-      "status": "past",
-      "sortDate": "2025-10-21T00:00:00+00:00"
     },
     {
       "title": "NeuMat Spotlight: \u201cAtoms to Bits: The AlphaBet of Intelligence v2.0\u201d Workshop in Manchester",
@@ -170,6 +160,16 @@
       "sourceLabel": "NeuMat",
       "status": "past",
       "sortDate": "2026-10-12T00:00:00+00:00"
+    },
+    {
+      "title": "UK Multidisciplinary Centre for Neuromorphic Computing Official Launch",
+      "date": "Tue 21 Oct",
+      "location": "House of Lords",
+      "url": "https://www.uk-neuromorphic-centre.net/event-details/uk-multidisciplinary-centre-for-neuromorphic-computing-official-launch",
+      "source": "neurosync",
+      "sourceLabel": "NeuroSYNC",
+      "status": "past",
+      "sortDate": "2026-10-21T00:00:00+00:00"
     },
     {
       "title": "Connecting the UK\u2019s Neuromorphic Computing Ecosystem",
