@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T11:22:37.845885+00:00",
+  "generatedAt": "2026-10-23T11:12:52.183870+00:00",
   "events": [
     {
       "title": "International workshop: Machine Learning Meets Photonics 2025",
@@ -180,6 +180,16 @@
       "sourceLabel": "NeuMat",
       "status": "upcoming",
       "sortDate": "2026-10-29T00:00:00+00:00"
+    },
+    {
+      "title": "NeuMat Spotlight: Innovation Exchange Challenge - Low SWaP-C Edge AI",
+      "date": "6 November 2026",
+      "location": "",
+      "url": "https://www.neumat.co.uk/news/news-articles/innovation-exchange-challenge/",
+      "source": "neumat",
+      "sourceLabel": "NeuMat",
+      "status": "upcoming",
+      "sortDate": "2026-11-06T00:00:00+00:00"
     },
     {
       "title": "Showcase Your Research at the Royal Society",

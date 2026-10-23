@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T11:22:54.933435+00:00",
+  "generatedAt": "2026-10-23T11:13:12.023187+00:00",
   "news": [
     {
       "title": "EuroNMC: A New European Network for Neuromorphic Computing",
@@ -82,6 +82,14 @@
       "sourceLabel": "NeuroSYNC"
     },
     {
+      "title": "NeuMat Spotlight: Innovation Exchange Challenge - Low SWaP-C Edge AI",
+      "url": "https://www.neumat.co.uk/news/news-articles/innovation-exchange-challenge/",
+      "date": "2026-10-23",
+      "summary": "A new Innovation Exchange (iX) Challenge is seeking partners to develop low Size, Weight, Power and Cost (SWaP-C) hardware for Edge AI. The opportunity may be of interest to NeuMat members working in neuromorphic…",
+      "source": "neumat",
+      "sourceLabel": "NeuMat"
+    },
+    {
       "title": "NeuMat Spotlight: Discover CANUTE, the new UK–Canada semiconductor network",
       "url": "https://www.neumat.co.uk/news/news-articles/neumat-spotlight-discover-canute-the-new-uk-canada-semiconductor-network/",
       "date": "2026-10-19",
@@ -150,14 +158,6 @@
       "url": "https://www.neumat.co.uk/news/news-articles/neumat-spotlight-nice-2027-comes-to-the-uk/",
       "date": "2026-08-05",
       "summary": "The Neuro-Inspired Computational Elements (NICE) Conference 2027 will take place at the University of Sussex in Brighton, UK , bringing one of the leading international conferences in neuromorphic and neuro-inspired…",
-      "source": "neumat",
-      "sourceLabel": "NeuMat"
-    },
-    {
-      "title": "Showcase Your Research at the Royal Society",
-      "url": "https://www.neumat.co.uk/news/news-articles/royal-society-poster-session/",
-      "date": "2026-07-23",
-      "summary": "Researchers are invited to showcase their work at a poster session taking place during the Royal Society Hooke Discussion Meeting and Industry Event - Innovating Technologies for Neuromorphic Computing (23-25 November…",
       "source": "neumat",
       "sourceLabel": "NeuMat"
     },

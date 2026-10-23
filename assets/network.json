@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-10-22T11:23:03.840302+00:00",
+  "generatedAt": "2026-10-23T11:13:24.213538+00:00",
   "source": "https://www.neumat.co.uk/network/",
   "organisations": [
+    {
+      "id": "2975",
+      "name": "Apoha",
+      "type": "Industry",
+      "specialisms": [
+        "Sensors",
+        "Physics-inspired computing",
+        "Materials characterisation",
+        "Healthcare / biomedical",
+        "Industry collaboration"
+      ],
+      "lat": 51.540487,
+      "lng": -0.207948,
+      "website": "https://apoha.com"
+    },
     {
       "id": "2933",
       "name": "Geometry",
