@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T11:13:24.213538+00:00",
+  "generatedAt": "2026-10-24T10:31:35.323468+00:00",
   "source": "https://www.neumat.co.uk/network/",
   "organisations": [
     {
@@ -135,6 +135,21 @@
       "lat": 51.754386,
       "lng": -1.223182,
       "website": "https://www.brookes.ac.uk"
+    },
+    {
+      "id": "2983",
+      "name": "Qognetix Ltd",
+      "type": "Industry",
+      "specialisms": [
+        "Software / Toolchains",
+        "Local learning / Hebbian",
+        "Biological neural dynamics",
+        "Plasticity / learning mechanisms",
+        "Brain-inspired architectures"
+      ],
+      "lat": 52.484516,
+      "lng": -1.906193,
+      "website": "https://www.qognetix.com"
     },
     {
       "id": "2979",
@@ -387,6 +402,20 @@
       "lat": 50.8426562,
       "lng": -0.1393643,
       "website": "https://www.sussex.ac.uk/"
+    },
+    {
+      "id": "2989",
+      "name": "Univesity of Nottingham",
+      "type": "Academia",
+      "specialisms": [
+        "Neuromorphic computing",
+        "Spiking neural networks (SNNs)",
+        "Computational neuroscience",
+        "Biological neural dynamics"
+      ],
+      "lat": 52.940393,
+      "lng": -1.189663,
+      "website": "https://www.nottingham.ac.uk/"
     }
   ]
 }
