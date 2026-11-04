@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T13:49:58.580956+00:00",
+  "generatedAt": "2026-11-04T13:57:31.641123+00:00",
   "source": "https://www.neumat.co.uk/network/",
   "organisations": [
     {
@@ -33,6 +33,21 @@
       "website": "https://www.geometry.xyz/"
     },
     {
+      "id": "2996",
+      "name": "Hopkins Research Ltd",
+      "type": "Research Organisation",
+      "specialisms": [
+        "Neuromorphic computing",
+        "Spiking neural networks (SNNs)",
+        "Probabilistic / stochastic computing",
+        "Computational neuroscience",
+        "Plasticity / learning mechanisms"
+      ],
+      "lat": 51.287809,
+      "lng": 0.194592,
+      "website": "https://www.hopkins-research.com (not yet active)"
+    },
+    {
       "id": "2968",
       "name": "Imperial College London, Electrical and Electronic Engineering",
       "type": "Academia",
@@ -61,6 +76,20 @@
       "lat": 51.499334,
       "lng": -0.179178,
       "website": "https://imperial.ac.uk"
+    },
+    {
+      "id": "2998",
+      "name": "King's College London",
+      "type": "Academia",
+      "specialisms": [
+        "Materials",
+        "Neuromorphic computing",
+        "In-memory computing",
+        "Optoelectronics"
+      ],
+      "lat": 51.511613,
+      "lng": -0.116228,
+      "website": "https://www.kcl.ac.uk/research/photonics-nanotechnology"
     },
     {
       "id": "2959",
@@ -137,6 +166,20 @@
       "website": "https://www.brookes.ac.uk"
     },
     {
+      "id": "2992",
+      "name": "Paragraf",
+      "type": "Industry",
+      "specialisms": [
+        "Materials",
+        "Devices",
+        "Sensors",
+        "Low-power electronics"
+      ],
+      "lat": 52.3493964,
+      "lng": -0.1840155,
+      "website": "https://www.paragraf.com"
+    },
+    {
       "id": "2983",
       "name": "Qognetix Ltd",
       "type": "Industry",
@@ -195,6 +238,21 @@
       "lat": 51.51481,
       "lng": -0.094793,
       "website": "https://www.rayd.tech"
+    },
+    {
+      "id": "2994",
+      "name": "Sheffield Hallam University",
+      "type": "Academia",
+      "specialisms": [
+        "Algorithms",
+        "Applications",
+        "Spiking neural networks (SNNs)",
+        "Edge sensing / IoT",
+        "Robotics"
+      ],
+      "lat": 53.379149,
+      "lng": -1.465225,
+      "website": "https://www.shu.ac.uk"
     },
     {
       "id": "2133",
