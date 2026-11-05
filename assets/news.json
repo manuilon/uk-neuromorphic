@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T13:57:21.226008+00:00",
+  "generatedAt": "2026-11-05T14:15:09.478024+00:00",
   "news": [
     {
       "title": "EuroNMC: A New European Network for Neuromorphic Computing",
@@ -160,6 +160,14 @@
       "summary": "The Neuro-Inspired Computational Elements (NICE) Conference 2027 will take place at the University of Sussex in Brighton, UK , bringing one of the leading international conferences in neuromorphic and neuro-inspired…",
       "source": "neumat",
       "sourceLabel": "NeuMat"
+    },
+    {
+      "title": "NeuroWare Contributes Evidence to Parliamentary Inquiry on Low-Energy Computing",
+      "url": "https://neuroware-ikc.com/roadmap-launch-2/",
+      "date": "2026-11-05",
+      "summary": "As part of the UK Parliament's inquiry into low-energy computing, NeuroWare presented evidence on the opportunities for neuromorphic computing to reduce energy consumption and strengthen the UK's technological…",
+      "source": "neuroware",
+      "sourceLabel": "NeuroWare"
     },
     {
       "title": "NeuroWare to showcase opportunities in the UK neuromorphic computing ecosystem",
