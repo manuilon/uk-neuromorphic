@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T13:39:19.241200+00:00",
+  "generatedAt": "2026-11-16T15:10:40.337084+00:00",
   "source": "https://www.neumat.co.uk/network/",
   "organisations": [
     {
@@ -108,7 +108,7 @@
     },
     {
       "id": "2954",
-      "name": "Loughborough University",
+      "name": "Loughborough University, Department of Physics",
       "type": "Academia",
       "specialisms": [
         "Circuits",
@@ -123,6 +123,21 @@
       "lat": 52.763845,
       "lng": -1.2372582,
       "website": "https://www.lboro.ac.uk/departments/physics/"
+    },
+    {
+      "id": "3005",
+      "name": "Loughborough University, Emergent Photonics Research Centre",
+      "type": "Academia",
+      "specialisms": [
+        "Photonic devices",
+        "Reservoir computing",
+        "Reinforcement learning",
+        "Physics-inspired computing",
+        "Photonic neural networks"
+      ],
+      "lat": 52.764847,
+      "lng": -1.229512,
+      "website": "https://www.lboro.ac.uk/research/emergent-photonics/"
     },
     {
       "id": "2963",
