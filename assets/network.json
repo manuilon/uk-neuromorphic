@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T15:10:40.337084+00:00",
+  "generatedAt": "2026-11-17T15:40:35.671198+00:00",
   "source": "https://www.neumat.co.uk/network/",
   "organisations": [
     {
@@ -320,6 +320,21 @@
       "website": "https://www.eng.cam.ac.uk/research/academic-divisions/electrical-engineering-0"
     },
     {
+      "id": "3007",
+      "name": "University of Cambridge, Physics-Inspired Computing Group",
+      "type": "Academia",
+      "specialisms": [
+        "Algorithms",
+        "Neuromorphic computing",
+        "Analog computing",
+        "Optimisation algorithms",
+        "Physics-inspired computing"
+      ],
+      "lat": 52.210004,
+      "lng": 0.101422,
+      "website": "https://pi-computing.org"
+    },
+    {
       "id": "2215",
       "name": "University of Edinburgh, School of Engineering",
       "type": "Academia",
@@ -404,6 +419,20 @@
       "website": "https://www.icns.manchester.ac.uk/"
     },
     {
+      "id": "2989",
+      "name": "University of Nottingham",
+      "type": "Academia",
+      "specialisms": [
+        "Neuromorphic computing",
+        "Spiking neural networks (SNNs)",
+        "Computational neuroscience",
+        "Biological neural dynamics"
+      ],
+      "lat": 52.940393,
+      "lng": -1.189663,
+      "website": "https://www.nottingham.ac.uk/"
+    },
+    {
       "id": "2971",
       "name": "University of Oxford, Department of Chemistry",
       "type": "Academia",
@@ -475,20 +504,6 @@
       "lat": 50.8426562,
       "lng": -0.1393643,
       "website": "https://www.sussex.ac.uk/"
-    },
-    {
-      "id": "2989",
-      "name": "Univesity of Nottingham",
-      "type": "Academia",
-      "specialisms": [
-        "Neuromorphic computing",
-        "Spiking neural networks (SNNs)",
-        "Computational neuroscience",
-        "Biological neural dynamics"
-      ],
-      "lat": 52.940393,
-      "lng": -1.189663,
-      "website": "https://www.nottingham.ac.uk/"
     }
   ]
 }

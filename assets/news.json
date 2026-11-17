@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T15:10:25.245613+00:00",
+  "generatedAt": "2026-11-17T15:40:20.171300+00:00",
   "news": [
     {
       "title": "EuroNMC: A New European Network for Neuromorphic Computing",
@@ -82,6 +82,22 @@
       "sourceLabel": "NeuroSYNC"
     },
     {
+      "title": "NeuMat launches call for 2027 Summer Studentship host projects",
+      "url": "https://www.neumat.co.uk/news/news-articles/neumat-launches-call-for-2027-summer-studentship-host-projects/",
+      "date": "2026-11-17",
+      "summary": "NeuMat has opened its call for host project proposals for the 2027 Summer Undergraduate Studentships , supporting undergraduate research experience across neuromorphic materials, devices and computing.",
+      "source": "neumat",
+      "sourceLabel": "NeuMat"
+    },
+    {
+      "title": "Open call: Host the NeuMat Autumn 2027 Network Meeting",
+      "url": "https://www.neumat.co.uk/news/news-articles/open-call-host-the-neumat-autumn-2027-network-meeting/",
+      "date": "2026-11-16",
+      "summary": "NeuMat is inviting proposals from eligible UK research organisations to host the Autumn 2027 Network Meeting , with up to £20,000 available to support the event.",
+      "source": "neumat",
+      "sourceLabel": "NeuMat"
+    },
+    {
       "title": "NeuMat Spotlight: Innovation Exchange Challenge - Low SWaP-C Edge AI",
       "url": "https://www.neumat.co.uk/news/news-articles/innovation-exchange-challenge/",
       "date": "2026-10-23",
@@ -142,22 +158,6 @@
       "url": "https://www.neumat.co.uk/news/news-articles/neumat-spotlight-funding-opportunity-for-smes-exploring-neuromorphic-computing/",
       "date": "2026-08-25",
       "summary": "Innovate UK-funded programme opens new opportunities for SMEs looking to adopt emerging computing technologies NeuMat members with industrial contacts or SME partners may be interested in a new funding opportunity from…",
-      "source": "neumat",
-      "sourceLabel": "NeuMat"
-    },
-    {
-      "title": "NeuMat Spotlight: APRIL AI Hub launches £100k Sandpit Competition to fast-track AI tools for semiconductor R&D",
-      "url": "https://www.neumat.co.uk/news/news-articles/neumat-spotlight-april-ai-hub-launches-100k-sandpit-competition-to-fast-track-ai-tools-for-semiconductor-rd/",
-      "date": "2026-08-25",
-      "summary": "The APRIL AI Hub, the EPSRC-funded AI Hub for Productive Research & Innovation in Electronics, has opened a new sandpit competition offering awards of up to £100,000 to researchers who can demonstrate the greatest…",
-      "source": "neumat",
-      "sourceLabel": "NeuMat"
-    },
-    {
-      "title": "NeuMat Spotlight: NICE 2027 Comes to the UK",
-      "url": "https://www.neumat.co.uk/news/news-articles/neumat-spotlight-nice-2027-comes-to-the-uk/",
-      "date": "2026-08-05",
-      "summary": "The Neuro-Inspired Computational Elements (NICE) Conference 2027 will take place at the University of Sussex in Brighton, UK , bringing one of the leading international conferences in neuromorphic and neuro-inspired…",
       "source": "neumat",
       "sourceLabel": "NeuMat"
     },
