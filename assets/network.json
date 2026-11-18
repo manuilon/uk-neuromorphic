@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T15:40:35.671198+00:00",
+  "generatedAt": "2026-11-18T15:19:14.133897+00:00",
   "source": "https://www.neumat.co.uk/network/",
   "organisations": [
     {
@@ -255,6 +255,21 @@
       "website": "https://www.rayd.tech"
     },
     {
+      "id": "3045",
+      "name": "Royal Holloway, University of London",
+      "type": "Academia",
+      "specialisms": [
+        "Neuromorphic computing",
+        "Deep learning",
+        "Distributed systems",
+        "Computational neuroscience",
+        "Biological neural dynamics"
+      ],
+      "lat": 51.4291354,
+      "lng": -0.5601352,
+      "website": "https://www.royalholloway.ac.uk/research-and-education/subjects/computer-science/"
+    },
+    {
       "id": "2994",
       "name": "Sheffield Hallam University",
       "type": "Academia",
@@ -294,6 +309,21 @@
       "lat": 51.5253435,
       "lng": -0.1334389,
       "website": "https://www.ucl.ac.uk/mathematical-physical-sciences/physics-astronomy"
+    },
+    {
+      "id": "3047",
+      "name": "Ulster University",
+      "type": "Academia",
+      "specialisms": [
+        "Architectures",
+        "Neuromorphic computing",
+        "Spiking neural networks (SNNs)",
+        "FPGA / reconfigurable hardware",
+        "Reliability / variability / noise"
+      ],
+      "lat": 55.005991,
+      "lng": -7.323686,
+      "website": "https://www.ulster.ac.uk/research/topic/computer-science/intelligent-systems-research-centre"
     },
     {
       "id": "2130",
