@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T15:18:32.403446+00:00",
+  "generatedAt": "2026-11-19T15:25:32.269290+00:00",
   "events": [
     {
       "title": "International workshop: Machine Learning Meets Photonics 2025",
@@ -230,6 +230,16 @@
       "sourceLabel": "NeuroSYNC",
       "status": "upcoming",
       "sortDate": "2027-05-11T00:00:00+00:00"
+    },
+    {
+      "title": "NeuMat Spotlight: Canadian Neuromorphic Engineering Workshop 2027",
+      "date": "14-25 June 2027",
+      "location": "",
+      "url": "https://www.neumat.co.uk/news/news-articles/canadian-neuromorphic-engineering-workshop/",
+      "source": "neumat",
+      "sourceLabel": "NeuMat",
+      "status": "upcoming",
+      "sortDate": "2027-06-14T00:00:00+00:00"
     }
   ],
   "errors": []

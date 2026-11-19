@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T15:19:14.133897+00:00",
+  "generatedAt": "2026-11-19T15:26:03.590183+00:00",
   "source": "https://www.neumat.co.uk/network/",
   "organisations": [
     {
@@ -164,6 +164,21 @@
       "lat": 51.537542,
       "lng": -0.0119821,
       "website": "https://www.neuroware-ikc.com"
+    },
+    {
+      "id": "3051",
+      "name": "Northeastern University London",
+      "type": "Academia",
+      "specialisms": [
+        "Devices",
+        "Circuits",
+        "Architectures",
+        "Algorithms",
+        "Hardware–software co-design"
+      ],
+      "lat": 51.511647,
+      "lng": -0.073495,
+      "website": "https://www.nulondon.ac.uk/research/intelligent-networked-systems/"
     },
     {
       "id": "2981",

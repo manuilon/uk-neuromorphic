@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T15:18:55.646066+00:00",
+  "generatedAt": "2026-11-19T15:25:48.838685+00:00",
   "news": [
     {
       "title": "EuroNMC: A New European Network for Neuromorphic Computing",
@@ -82,6 +82,14 @@
       "sourceLabel": "NeuroSYNC"
     },
     {
+      "title": "NeuMat Spotlight: Canadian Neuromorphic Engineering Workshop 2027",
+      "url": "https://www.neumat.co.uk/news/news-articles/canadian-neuromorphic-engineering-workshop/",
+      "date": "2026-11-18",
+      "summary": "Applications are now open for the second Canadian Neuromorphic Engineering Workshop (CNEW) 2027) , taking place at the University of Waterloo, Canada, from 14-25 June 2027 . Bringing together researchers and innovators…",
+      "source": "neumat",
+      "sourceLabel": "NeuMat"
+    },
+    {
       "title": "NeuMat launches call for 2027 Summer Studentship host projects",
       "url": "https://www.neumat.co.uk/news/news-articles/neumat-launches-call-for-2027-summer-studentship-host-projects/",
       "date": "2026-11-17",
@@ -150,14 +158,6 @@
       "url": "https://www.neumat.co.uk/news/news-articles/neumat-spotlight-new-innovate-uk-investor-partnerships-competition-targets-semiconductor-innovation/",
       "date": "2026-09-07",
       "summary": "NeuMat members developing next-generation electronic materials, devices and hardware may be interested in a new Innovate UK funding opportunity that combines grant funding with private investment support. A total of up…",
-      "source": "neumat",
-      "sourceLabel": "NeuMat"
-    },
-    {
-      "title": "NeuMat Spotlight: Funding Opportunity for SMEs Exploring Neuromorphic Computing",
-      "url": "https://www.neumat.co.uk/news/news-articles/neumat-spotlight-funding-opportunity-for-smes-exploring-neuromorphic-computing/",
-      "date": "2026-08-25",
-      "summary": "Innovate UK-funded programme opens new opportunities for SMEs looking to adopt emerging computing technologies NeuMat members with industrial contacts or SME partners may be interested in a new funding opportunity from…",
       "source": "neumat",
       "sourceLabel": "NeuMat"
     },
