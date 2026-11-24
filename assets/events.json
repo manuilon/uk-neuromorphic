@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T17:38:36.558462+00:00",
+  "generatedAt": "2026-11-24T17:09:57.277888+00:00",
   "events": [
     {
       "title": "International workshop: Machine Learning Meets Photonics 2025",
@@ -198,7 +198,7 @@
       "url": "https://www.neumat.co.uk/news/news-articles/royal-society-poster-session/",
       "source": "neumat",
       "sourceLabel": "NeuMat",
-      "status": "upcoming",
+      "status": "past",
       "sortDate": "2026-11-23T00:00:00+00:00"
     },
     {
@@ -208,7 +208,7 @@
       "url": "https://www.neumat.co.uk/news/news-articles/royal-society-hooke-discussion-and-industry-events/",
       "source": "neumat",
       "sourceLabel": "NeuMat",
-      "status": "upcoming",
+      "status": "past",
       "sortDate": "2026-11-23T00:00:00+00:00"
     },
     {
