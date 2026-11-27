@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T16:34:49.138511+00:00",
+  "generatedAt": "2026-11-27T16:20:36.275520+00:00",
   "news": [
     {
       "title": "EuroNMC: A New European Network for Neuromorphic Computing",
@@ -82,6 +82,14 @@
       "sourceLabel": "NeuroSYNC"
     },
     {
+      "title": "£32M AI Hardware Challenge Opens for Applications",
+      "url": "https://www.neumat.co.uk/news/news-articles/ai-hardware-challenge/",
+      "date": "2026-11-27",
+      "summary": "A new £32m UKRI funding opportunity is now open for projects developing innovative AI hardware technologies. The call is expected to be of particular interest to NeuMat members working in semiconductors, advanced…",
+      "source": "neumat",
+      "sourceLabel": "NeuMat"
+    },
+    {
       "title": "NeuMat Spotlight: Canadian Neuromorphic Engineering Workshop 2027",
       "url": "https://www.neumat.co.uk/news/news-articles/canadian-neuromorphic-engineering-workshop/",
       "date": "2026-11-18",
@@ -154,14 +162,6 @@
       "sourceLabel": "NeuMat"
     },
     {
-      "title": "NeuMat Spotlight: New Innovate UK Investor Partnerships Competition Targets Semiconductor Innovation",
-      "url": "https://www.neumat.co.uk/news/news-articles/neumat-spotlight-new-innovate-uk-investor-partnerships-competition-targets-semiconductor-innovation/",
-      "date": "2026-09-07",
-      "summary": "NeuMat members developing next-generation electronic materials, devices and hardware may be interested in a new Innovate UK funding opportunity that combines grant funding with private investment support. A total of up…",
-      "source": "neumat",
-      "sourceLabel": "NeuMat"
-    },
-    {
       "title": "NeuroWare Contributes Evidence to Parliamentary Inquiry on Low-Energy Computing",
       "url": "https://neuroware-ikc.com/roadmap-launch-2/",
       "date": "2026-11-05",
@@ -210,5 +210,10 @@
       "sourceLabel": "NeuroWare"
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "source": "neuroware",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    }
+  ]
 }
